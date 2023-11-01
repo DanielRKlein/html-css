@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+section.container {
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+}
+
+article.content {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
