@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <div id="login">
+                <form action="usuario.js" autocomplete="off" method="post">
+                    <p>
+                        <label for="user">User:</label>
+                        <input type=" text" name="nome" id="user" required minlength="3" maxlength="15" size="16" placeholder="min 3 caracteres">
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required minlength="3" maxlength="15" size="16" placeholder="min 3 caracteres">
+                    </p>
+                    <p>
+                        <label for="idade">Idade:</label>
+                        <input type="number" name="idade" id="idade" min= "18" max="100" placeholder="18 a 100 anos" size="10" step="1" required>
+                    </p>
+
+                    <fieldset>
+                        <legend>sexo</legend>
+                        <input type="radio" name="sexo" id="masc"> <label for="masc">Masc</label> <br>
+                        <input type="radio" name="sexo" id="fem">
+                        <label for="fem">Fem</label> <br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>aplicativos no seu celular</legend>
+                        <input type="checkbox" name="insta" id="insta" checked> <label for="insta">insta</label> <br>
+                        <input type="checkbox" name="twitter" id="twitter"> <label for="twitter">twitter</label> <br>
+                        <input type="checkbox" name="github" id="github"> <label for="github">github</label> <br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>cor favorita</legend>
+                        <label for="favcor">Cor:</label>
+                        <input type="color" name="cor" id="favcor">
+                    </fieldset>
+                    <fieldset>
+                        <legend>foto de perfil</legend>
+                        <label for="fotoperfil">escolha a foto <br> de perfil <br></label>
+                        <input type="file" name="foto" id="fotodeperfil">
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="enviar">
+                    </p>
+
+                </form>
+            </div>
+            <div>
+                <a href="home.html" target="tela"><img src="imagens/logo-home.jpg" alt="" class="logo"></a> <br>
+                <a href="instagram.html" target="tela"><img src="imagens/logo-instagram.jpg" alt="" class="logo"></a> <br>
+                <a href="github.html" target="tela"><img src="imagens/logo-github.jpg" alt="" class="logo"></a> <br>
+            </div>
+
+            <section id="telefone">
+                <iframe src="home.html" frameborder="0" name="tela" id="tela"></iframe>
+
+            </section>
+        </main>
+    </body>
