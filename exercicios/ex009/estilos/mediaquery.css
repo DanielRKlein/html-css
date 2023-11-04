@@ -15,10 +15,6 @@
         display: inline-block;
         width: 30vw;
         height: 600px;
-        background-image: url(../imagens/pexels-ryutaro-tsukata-6249458.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: right top;
     }
 
     div#container {
@@ -33,93 +29,28 @@
     }
 
     h1 {
-        font-weight: bolder;
         text-align: justify;
-        padding: 15px;
         margin-top: 25px;
         margin-bottom: 15px;
         font-size: 2em;
         margin-left: 50px;
     }
+
     
     p#description {
         font-size: 1em;
-        text-indent: 15px;
-        padding: 5px 15px 25px 15px;
-        text-align: justify;
         margin-right: 25px;
         margin-bottom: 20px;
         margin-left: 15px;
     }
 
-    span#boneco {
-        position: absolute;
-        top: 32.8%;
-        padding: 8px;
-        width: 50px;
-        margin-left: 50px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(46, 143, 156);
-        margin-left: 40px;
-        border-radius: 14px;
-        margin-bottom: 5px;
-    }
-    
-    span#chave {
-        position: absolute;
-        top: 42.4%;
-        padding: 8px;
-        width: 50px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(46, 143, 156);
-        margin-left: 40px;
-        border-radius: 14px;
-    }
+    div.campo {
+        width: 34vw;
+   }
 
-    input#iuser {
-        width: 250px;
-        position: relative;
-        margin-left: 80px;
-        padding: 9px;
-        border-radius: 13px;
-        border: 3px solid rgb(46, 143, 156);
-        margin-bottom: 15px;
-    }
-
-    input#isenha {
-        width: 250px;
-        position: relative;
-        border: 3px solid rgb(46, 143, 156);
-        padding: 9px;
-        border-radius: 13px;
-        margin-bottom: 20px;
-        margin-top: 3px;
-        margin-left: 80px;
-    }
-
-    input#entrar {
-        width: 328px;
-        height: 40px;
-        background-color:  rgb(54, 180, 153);
-        color: white;
-        border: none;
-        border-radius: 25px;
-        margin-top: 15px;
-        margin-bottom: 25px;
-        margin-left: 50px;
-    }
-
-    input#forgot {
-        width: 328px;
-        height: 40px;
-        color: white;
-        border: 2px solid rgb(54, 180, 153);
-        background-color: white;
-        color: rgb(54, 180, 153);
-        border-radius: 15px;
-        margin-bottom: 15px;
-        margin-left: 50px;
-
+   input#entrar {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 }
@@ -139,10 +70,6 @@
         display: inline-block;
         width: 40vw;
         height: 600px;
-        background-image: url(../imagens/pexels-ryutaro-tsukata-6249458.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: right top;
     }
 
     div#container {
@@ -157,9 +84,7 @@
     }
 
     h1 {
-        font-weight: bolder;
         text-align: justify;
-        padding: 15px;
         margin-top: 25px;
         margin-bottom: 15px;
         font-size: 2em;
@@ -168,83 +93,25 @@
     
     p#description {
         font-size: 1em;
-        text-indent: 15px;
-        padding: 5px 15px 25px 15px;
-        text-align: justify;
         margin-right: 25px;
         margin-bottom: 20px;
         margin-left: 15px;
         margin-right: 90px;
     }
 
-    span#boneco {
-        position: absolute;
-        top: 38.9%;
-        padding: 8px;
-        width: 50px;
+    div.campo {
+        width: 34vw;
         margin-left: 50px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(46, 143, 156);
-        margin-left: 40px;
-        border-radius: 14px;
-        margin-bottom: 5px;
-    }
-    
-    span#chave {
-        position: absolute;
-        top: 51.5%;
-        padding: 8px;
-        width: 50px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(46, 143, 156);
-        margin-left: 40px;
-        border-radius: 14px;
-    }
-
-    input#iuser {
-        width: 250px;
-        position: relative;
-        margin-left: 80px;
-        padding: 9px;
-        border-radius: 13px;
-        border: 3px solid rgb(46, 143, 156);
-        margin-bottom: 6%;
-        margin-top: 7%;
-    }
-
-    input#isenha {
-        width: 250px;
-        position: relative;
-        border: 3px solid rgb(46, 143, 156);
-        padding: 9px;
-        border-radius: 13px;
-        margin-bottom: 20px;
-        margin-top: 3px;
-        margin-left: 80px;
-    }
+        margin-bottom: 25px;
+   }
 
     input#entrar {
-        width: 328px;
-        height: 40px;
-        background-color:  rgb(54, 180, 153);
-        color: white;
-        border: none;
-        border-radius: 25px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: 70px;
+        margin-top: 20px;
+        margin-left: 50px;
     }
 
     input#forgot {
-        width: 328px;
-        height: 40px;
-        color: white;
-        border: 2px solid rgb(54, 180, 153);
-        background-color: white;
-        color: rgb(54, 180, 153);
-        border-radius: 15px;
-        margin-bottom: 15px;
-        margin-left: 70px;
+        margin-left: 50px;
 
     }
 

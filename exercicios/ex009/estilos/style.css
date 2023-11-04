@@ -44,14 +44,36 @@ div#imagem {
 
 div#container {
     display: block;
-    margin: ;
+    margin: 0;
     background-color: white;
     width: 368px;
     height: 700px;
     
 }
 
+div.campo {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2E8F9C;
+    margin: 15px;
+    padding: 3px;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+span {
+    padding-right: 10px;
+    color: white;
+    font-size: 2em;
+    transform: translate(10%, 20%);
+}
+
+div.campo > input {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: calc(100% - 30px)
+}
 
 
 h1 {
@@ -68,51 +90,7 @@ p#description {
     text-align: justify;
 }
 
-input#iuser {
-    width: 250px;
-    position: relative;
-    margin-left: 60px;
-    padding: 9px;
-    border-radius: 13px;
-    border: 3px solid rgb(46, 143, 156);
-    margin-bottom: 15px;
-}
 
-span#boneco {
-    position: absolute;
-    top: 57.1%;
-    padding: 8px;
-    width: 50px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(46, 143, 156);
-    margin-left: 4px;
-    border-radius: 14px;
-    margin-bottom: 5px;
-    margin-left: 20px;
-}
-
-span#chave {
-    position: absolute;
-    top: 64.7%;
-    padding: 8px;
-    width: 50px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(46, 143, 156);
-    margin-left: 4px;
-    border-radius: 14px;
-    margin-left: 20px;
-}
-
-input#isenha {
-    width: 250px;
-    position: relative;
-    border: 3px solid rgb(46, 143, 156);
-    padding: 9px;
-    border-radius: 13px;
-    margin-bottom: 20px;
-    margin-top: 3px;
-    margin-left: 60px;
-}
 
 input#entrar {
     width: 328px;

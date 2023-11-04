@@ -17,14 +17,18 @@
                     <h1>Login</h1>
                     <p id="description">Seja bem-vindo novamente. Faça login para acessar sua cinta e poder fazer as configurações no seu ambiente</p>
                     <form action="login.js" autocomplete="off" method="post">
-                        <label for="iuser"><span class="material-symbols-outlined" id="boneco">
-                            person
-                            </span></label>
-                        <input type="text" class="user" id="iuser"> <br>
-                        <label for="isenha"><span class="material-symbols-outlined" id="chave">
-                            key
-                            </span> </label>
-                        <input type="password" class="password" id="isenha">
+                        <div class="campo">
+                            <label for="iuser"><span class="material-symbols-outlined" id="boneco">
+                                person
+                                </span></label>
+                            <input type="text" class="user" id="iuser" required> <br>
+                        </div>
+                        <div class="campo">
+                            <label for="isenha"><span class="material-symbols-outlined" id="chave">
+                                key
+                                </span> </label>
+                            <input type="password" class="password" id="isenha" required>
+                        </div>
                         <p>
                             <input type="submit" value="Entrar" id="entrar">
                         </p>
